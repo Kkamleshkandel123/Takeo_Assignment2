@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: var(--hyper-link)
+}
+
+.girl {
+    display: none;
+}
+
+.container {
+    max-width: 1100px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0px 15px;
+}
+
+.skilled {
+    font-size: 34px;
+    font-weight: 900;
+}
+
+.get-started {
+    background-color: rgb(15, 15, 38);
+    color: #fff;
+    padding: 1.1em 2.1em;
+    border-radius: 50px;
+    font-weight: 700;
+    font-size: 1.125rem;
+}
+
+.get-started:hover {
+    background-color: rgb(51, 51, 103);
+}
+
+.writing h1 {
+    font-weight: 800;
+    font-size: 3.5rem;
+    line-height: 65px;
+}
+
+.writing p {
+    margin-left: 0;
+    font-size: 1.125rem;
+    font-weight: 500;
+    color: var(--secondary-text);
+    overflow-wrap: break-word;
+    max-width: 440px;
+    line-height: 28px;
+}
+
+.second-button {
+    margin-top: 20px;
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    color: #fff;
+    padding: 1.1em 2.1em;
+    border-radius: 50px;
+    font-weight: 700;
+    font-size: 1.125rem;
+}
+
+.second-button:hover {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+}
+
+.writing {
+    margin: 85px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: url(assets/image-hero-desktop@2x.png) no-repeat right top;
+    background-size: contain;
+}
+
+.article {
+    background: linear-gradient(180deg, #FFFFFF 0%, #F0F1FF 100%);
+    padding-top: 30px;
+}
+
+.article-wrap {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding-bottom: 100px;
+}
+
+.box1 {
+    margin-top: 30px;
+    width: 330px;
+    height: 250px;
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    color: #fff;
+    padding: 40px 30px;
+    border-radius: 12px;
+    font-weight: 800;
+    font-size: 1.33rem;
+}
+
+.box2 {
+    margin-top: 30px;
+    width: 330px;
+    height: 250px;
+    background: #fff;
+    color: var(--primary-text);
+    padding: 50px 30px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 15px;
+    -webkit-box-shadow: 7px 11px 20px -10px rgba(0, 0, 0, 0.33);
+    box-shadow: 7px 11px 20px -10px rgba(0, 0, 0, 0.33);
+}
+
+.box2 img {
+    margin-top: -45px;
+    width: 50px;
+}
+
+.box2 p {
+    font-size: 1.125rem;
+    line-height: 28px;
+    color: var(--secondary-text);
+}
+
+.box2 h3 {
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: var(--primary-text);
+}
+
+.box2 a {
+    font-weight: 700;
+    font-size: 1.125rem;
+}
+
+.box2 a:hover {
+    color: var(--hyper-link-hover)
+}
+
+.footer1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px 0px 15px;
+}
+
+.footer-btn {
+    background: linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
+    color: #fff;
+    padding: 1.1em 2.1em;
+    border-radius: 50px;
+    font-weight: 700;
+    font-size: 1.125rem;
+}
+
+.footer-btn:hover {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
+}
+
+.footer {
+    background-color: rgb(15, 15, 38);
+    padding: 30px;
+}
+
+.logo2 {
+    font-size: 34px;
+    font-weight: 900;
+    color: #fff;
+}
